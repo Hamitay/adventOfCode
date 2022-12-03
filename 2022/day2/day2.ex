@@ -18,7 +18,6 @@ defmodule AdventOfCodeDay2 do
     arg = if length(args) > 0, do: List.first(args), else: ""
 
     path = if arg == "test", do: @test_path, else: @puzzle_path
-    IO.puts path
     path
     |> File.read!
   end
