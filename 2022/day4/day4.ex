@@ -21,7 +21,7 @@ defimpl String.Chars, for: Schedule  do
 end
 
 defmodule AdventOfCodeDay4 do
-
+/home/hamitay/workspace/repos/adventOfCode2022/2022/day1
   @test_path  "./inputs/test"
   @puzzle_path "./inputs/puzzle"
 
